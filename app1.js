@@ -1,4 +1,4 @@
-let button =document.querySelector("button");
+let button =document.getElementById("btn");
 button.addEventListener("click",()=>{
    this.style.color="red";
 });
